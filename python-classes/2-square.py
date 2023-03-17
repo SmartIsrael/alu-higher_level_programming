@@ -15,9 +15,4 @@ class Square:
         elif size < 0:
             raise ValueError("size must be >= 0")
         else:
-            self.__size = size
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
+            self.__size = sizey
