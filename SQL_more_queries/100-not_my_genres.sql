@@ -1,6 +1,5 @@
--- A script that uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter
--- Query 
-SELECT tv_genres.name
+-- Script that lists genres that not belong to Dexter show
+SELECT tv_genres.name -- Query to get genres that not belong
 FROM tv_genres
 LEFT JOIN
 (

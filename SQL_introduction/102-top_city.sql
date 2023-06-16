@@ -1,5 +1,5 @@
--- A script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending)
--- Query to display the average temperature by city
+-- Script that displays the top 3 of cities temperature 
+-- during July and August ordered by temperature (descending)
 SELECT city, AVG(value) AS avg_temp
 FROM temperatures
 WHERE month = 7 OR month = 8

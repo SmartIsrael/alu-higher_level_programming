@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-"""Write a class Square that defines a square by"""
+"""Create a square """
 
 
 class Square:
-    """Private instance attribute: size
-    Instantiation with size (no type/value verification)"""
+    '''
+    Create a square
+        Has a private Instance att: size
+    '''
+
     def __init__(self, size):
+        ''' init size '''
         self.__size = size
